@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "priority-expire-lru-cache"
+version = "0.1.0"
+description = ""
+authors = ["melvin <melvinkcx@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+freezegun = "^1.4.0"
+ipdb = "^0.13.13"
+snoop = "^0.4.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
